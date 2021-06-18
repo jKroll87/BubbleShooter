@@ -2,13 +2,12 @@
 
 #include "ofMain.h"
 
+#include "../shooter.h"
+
 class ofApp : public ofBaseApp {
 
 public:
-	int flag;
-	int lineLength;
-	int x2, y2;
-	float theta;
+	shooter shooter;
 
 	void setup();
 	void update();
